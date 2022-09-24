@@ -1,0 +1,12 @@
+*Helpful Tips*
+
+When connecting the microcontroller to Thonny IDE go to the run tab and click the project interperter. From here you want to change 
+the interpeter to MicroPython (RP2040). Then you want to go to the port and select the USB serial port that your device is connected to. 
+If you need help figuring out which port your device is on go the the Device Manager on your computer and you will find it there.
+
+When setting up the UDP connection you need the IP address of the microcontroller and the computer which Unity is running on. 
+The IP address of the computer goes in the main.py file on the microcontroller and the IP address of the microcontroller goes into the 
+Hand.cs file inside of Unity.
+
+Another version of the Dodecapen paper with some source code available 
+https://asselin.engineer/stylus
