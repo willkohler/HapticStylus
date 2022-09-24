@@ -8,7 +8,7 @@ import network
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 print(wlan.scan())
-wlan.connect('Apple Network 7b2e80', 'rosemarymckee')
+wlan.connect('Network', 'Password')
 # Uncomment the line below to figure out the IP address
 # print(wlan.ifconfig())
 print("connected")
