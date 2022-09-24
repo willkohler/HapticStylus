@@ -1,4 +1,4 @@
-*Helpful Tips*
+*Getting Started/Helpful Tips*
 
 When connecting the microcontroller to Thonny IDE go to the run tab and click the project interperter. From here you want to change 
 the interpeter to MicroPython (RP2040). Then you want to go to the port and select the USB serial port that your device is connected to. 
